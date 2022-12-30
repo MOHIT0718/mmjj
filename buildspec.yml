@@ -5,5 +5,4 @@ phases:
   build:
    commands:
     - yum install docker -y
-    - chmod 777 /var/run/docker.sock
     - docker build .
