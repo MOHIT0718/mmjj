@@ -4,5 +4,6 @@ env:
 phases: 
   build:
    commands:
+    - yum update 
     - chmod 777 /var/run/docker.sock
     - docker build .
