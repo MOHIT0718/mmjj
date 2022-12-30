@@ -1,0 +1,3 @@
+From nginx:alpine
+copy . .
+
